@@ -2,13 +2,13 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "আপনার উত্তর সফলভাবে জমা হয়েছে? ",
+    answer: "আপনার উত্তর সফলভাবে জমা হয়েছে ,ধন্যবাদ",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "আপনার উত্তর সফলভাবে জমা হয়েছে ,ধন্যবাদ",
+      "Hআপনার উত্তর সফলভাবে জমা হয়েছে ,ধন্যবাদp Language",
+      "Hyper আপনার উত্তর সফলভাবে জমা হয়েছে ,ধন্যবাদiple Language",
+      "Hyper Tআপনার উত্তর সফলভাবে জমা হয়েছে ,ধন্যবাদi Language"
     ]
   },
     {
