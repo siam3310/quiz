@@ -8,7 +8,8 @@
 }
 
 body{
-    background: #000010;
+    background: #007bff;
+}
 
 ::selection{
     color: #fff;
@@ -59,6 +60,7 @@ body{
 }
 
 .info_box .info-title{
+    height: 60px;
     width: 100%;
     border-bottom: 1px solid lightgrey;
     display: flex;
@@ -106,7 +108,7 @@ body{
 }
 
 .quiz_box{
-    width: 100%;
+    width: 98%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -137,13 +139,13 @@ body{
     color: #004085;
     background: #cce5ff;
     border: 1px solid #b8daff;
-    height: 50px;
+    height: 45px;
     padding: 0 8px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 145px;
 }
 
 .quiz_box header .timer .time_left_txt{
@@ -171,7 +173,6 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    width: 100%;
     background: #007bff;
 }
 
@@ -310,7 +311,7 @@ footer button.show{
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
-    width: 70%;
+    width: 450px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
