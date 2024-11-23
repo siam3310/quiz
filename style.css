@@ -59,7 +59,6 @@ body{
 }
 
 .info_box .info-title{
-    height: 60px;
     width: 100%;
     border-bottom: 1px solid lightgrey;
     display: flex;
@@ -138,13 +137,13 @@ body{
     color: #004085;
     background: #cce5ff;
     border: 1px solid #b8daff;
-    height: 45px;
+    height: 50px;
     padding: 0 8px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 145px;
+    width: 100%;
 }
 
 .quiz_box header .timer .time_left_txt{
