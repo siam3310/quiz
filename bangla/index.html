@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mathematics Chapters Quiz"/>
+    <title>Bangla Chapters - Solution Point Quiz '26</title>
+    <!-- FontAwesome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head><style>
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #000010;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+}
+
+.navigation-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: inline-block;
+    margin-right: auto;
+}
+
+.back-button:hover {
+    background-color: #0263ca;
+}
+
+.site-title {
+    font-size: 3em;
+    background: linear-gradient(90deg, #f7b42c, #fc575e, #833ab4, #5851db, #405de6, #2ec4b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chapter-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.chapter-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.chapter-title {
+    font-size: 1.8em;
+    background: linear-gradient(90deg, #f7b42c, #fc575e, #833ab4, #5851db, #405de6, #2ec4b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.chapter-details {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.start-quiz-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.start-quiz-link:hover {
+    background-color: #0263ca;
+}
+
+@media only screen and (max-width: 768px) {
+    .chapter-card {
+        max-width: 45%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .chapter-card {
+        max-width: 100%;
+    }
+}
+</style>
+<body>
+    <a href="/" class="back-button">
+        <i class="fas fa-arrow-left"></i> Back to Homepage
+    </a>
+
+    <div class="site-title">Bangla Chapters</div>
+    <div class="subtitle">Select a Chapter to Start Your Quiz</div>
+
+    <div class="chapter-container">
+        <div class="chapter-card">
+            <h2 class="chapter-title">সোনার তরী</h2>
+            <p class="chapter-details">
+                রবীন্দ্রনাথ ঠাকুর 
+            </p>
+            <a href="bangla/sonar-tori.html" class="start-quiz-link">Start Quiz</a>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">More</h2>
+            <p class="chapter-details">
+                More Chapters added Soon
+            </p>
+            <a href="#" class="start-quiz-link">Coming Soon</a>
+        </div>
+
+
+    </div>
+</body>
+</html>
