@@ -8,8 +8,7 @@
 }
 
 body{
-    background: #007bff;
-}
+    background: #000010;
 
 ::selection{
     color: #fff;
@@ -60,7 +59,6 @@ body{
 }
 
 .info_box .info-title{
-    height: 60px;
     width: 100%;
     border-bottom: 1px solid lightgrey;
     display: flex;
@@ -108,15 +106,14 @@ body{
 }
 
 .quiz_box{
-    width: 98%;
+    width: 100%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
-}
-
+} 
 .quiz_box header{
     position: relative;
     z-index: 2;
@@ -139,13 +136,13 @@ body{
     color: #004085;
     background: #cce5ff;
     border: 1px solid #b8daff;
-    height: 45px;
+    height: 50px;
     padding: 0 8px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 145px;
+    width: 100%;
 }
 
 .quiz_box header .timer .time_left_txt{
@@ -173,6 +170,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
+    width: 100%;
     background: #007bff;
 }
 
@@ -241,8 +239,7 @@ section .option_list .option .icon{
     pointer-events: none;
     transition: all 0.3s ease;
     line-height: 24px;
-}
-.option_list .option .icon.tick{
+} .option_list .option .icon.tick{
     color: #23903c;
     border-color: #23903c;
     background: #d4edda;
@@ -311,7 +308,7 @@ footer button.show{
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
-    width: 450px;
+    width: 70%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -370,8 +367,7 @@ footer button.show{
 
 .buttons button.restart:hover{
     background: #0263ca;
-}
-
+} 
 .buttons button.quit{
     color: #007bff;
     background: #fff;
@@ -439,7 +435,7 @@ footer button.show{
             box-sizing: border-box;
             color: #000;
             word-wrap: break-word; /* Ensure text breaks and wraps */
-        }
+        } 
 
         .category-title {
             font-size: 2em; /* Slightly smaller to fit better */
