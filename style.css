@@ -49,7 +49,7 @@ body{
 }
 
 .info_box{
-    width: 90px;
+    width: 90%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -59,7 +59,6 @@ body{
 }
 
 .info_box .info-title{
-    height: 100%;
     width: 100%;
     border-bottom: 1px solid lightgrey;
     display: flex;
