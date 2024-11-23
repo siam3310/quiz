@@ -1,17 +1,17 @@
-<!-- Created By Ali Aslan  -->
+<!-- Created By Siam  -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MySkyPower / CREATIVE PRODUCTION GROUP We are the producers of your ideas. The workshop – the craftsmen – the designers – the engineers. Together we are one. One group of talented people who harness the power to build big ideas. From handmade to high- tech. With you we create. Bring us your ideas, designs, and dreams and we will build them. Whatever the scale. EVERY DAY WE BUILD BIG IDEAS We are MySkyPower." />
+    <meta name="description" content="Solution Point Quiz - 2026" />
     <meta property="og:title" content="My Sky Power | MSP />
-    <meta property="og:description" content="MySkyPower / CREATIVE PRODUCTION GROUP We are the producers of your ideas. The workshop – the craftsmen – the designers – the engineers. Together we are one. One group of talented people who harness the power to build big ideas. From handmade to high- tech. With you we create. Bring us your ideas, designs, and dreams and we will build them. Whatever the scale. EVERY DAY WE BUILD BIG IDEAS We are MySkyPower." />
+    <meta property="og:description" content="SP Quiz - 2026" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.myskypower.net/" />
 
-    <title>Awesome Quiz App | Ali Aslan</title>
+    <title>SP Quiz - 2026</title>
     <link rel="stylesheet" href="style.css">
     <!-- FontAweome CDN Link for Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -60,7 +60,7 @@
             <div class="total_que">
                 <!-- Here I've inserted Question Count Number from JavaScript -->
             </div>
-            <button class="next_btn">Next Que</button>
+            <button class="next_btn">Next</button>
         </footer>
     </div>
 
@@ -80,7 +80,78 @@
     </div>
 
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->
-    <script src="js/questions.js"></script>
+    <script> // creating an array and passing the number, questions, options, and answers
+let questions = [
+    {
+    numb: 1,
+    question: "আপনার উত্তর সফলভাবে জমা হয়েছে? ",
+    answer: "আপনার উত্তর সফলভাবে জমা হয়েছে ,ধন্যবাদ",
+    options: [
+      "আপনার উত্তর সফলভাবে জমা হয়েছে ,ধন্যবাদ",
+      "Hআপনার উত্তর সফলভাবে khoma হয়েছে ,ধন্যবাদp Language",
+      "Hyper আপনার উত্তর সফলভাবে জমা হয়েছে ,ধন্যবাদiple Language",
+      "Hyper Tআপনার উত্তর সফলভাবে জমা হয়েছে ,ধন্যবাদi Language"
+    ]
+  },
+    {
+    numb: 2,
+    question: "What does CSS stand for?",
+    answer: "Cascading Style Sheet",
+    options: [
+      "Common Style Sheet",
+      "Colorful Style Sheet",
+      "Computer Style Sheet",
+      "Cascading Style Sheet"
+    ]
+  },
+    {
+    numb: 3,
+    question: "What does PHP stand for?",
+    answer: "Hypertext Preprocessor",
+    options: [
+      "Hypertext Preprocessor",
+      "Hypertext Programming",
+      "Hypertext Preprogramming",
+      "Hometext Preprocessor"
+    ]
+  },
+    {
+    numb: 4,
+    question: "What does SQL stand for?",
+    answer: "Structured Query Language",
+    options: [
+      "Stylish Question Language",
+      "Stylesheet Query Language",
+      "Statement Question Language",
+      "Structured Query Language"
+    ]
+  },
+    {
+    numb: 5,
+    question: "What does XML stand for?",
+    answer: "eXtensible Markup Language",
+    options: [
+      "eXtensible Markup Language",
+      "eXecutable Multiple Language",
+      "eXTra Multi-Program Language",
+      "eXamine Multiple Language"
+    ]
+  },
+  // you can uncomment the below codes and make duplicate as more as you want to add question
+  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
+
+  //   {
+  //   numb: 6,
+  //   question: "Your Question is Here",
+  //   answer: "Correct answer of the question is here",
+  //   options: [
+  //     "Option 1",
+  //     "option 2",
+  //     "option 3",
+  //     "option 4"
+  //   ]
+  // },
+]; </script>
 
     <!-- Inside this JavaScript file I've coded all Quiz Codes -->
     <script src="js/script.js"></script>
