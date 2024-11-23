@@ -171,6 +171,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
+    width: 100%;
     background: #007bff;
 }
 
